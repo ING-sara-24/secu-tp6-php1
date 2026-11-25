@@ -93,9 +93,27 @@
         </table>
 
         <h3>Résumé</h3>
-        <p>Serveurs online: <span id="total_online_servers"><?php echo $total_online; ?></span></p>
-        <p>Score moyen: <span id="moy_scores"><?php echo number_format($moy_scores, 1); ?></span></p>
-        <p>Meilleur serveur: <span id="best_serv"><?php echo $best_serv . " (" . $best_score . ")"; ?></span></p>
+        <p>Serveurs online: 
+            <span id="total_online_servers">
+                <?php 
+                    echo $total_online; 
+                ?>
+            </span>
+        </p>
+        <p>Score moyen: 
+            <span id="moy_scores">
+                <?php 
+                    echo number_format($moy_scores, 1); 
+                ?>
+            </span>
+        </p>
+        <p>Meilleur serveur: 
+            <span id="best_serv">
+                <?php 
+                    echo $best_serv . " (" . $best_score . ")"; 
+                ?>
+            </span>
+        </p>
 
     </body>
 </html>
